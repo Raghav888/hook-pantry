@@ -1,0 +1,38 @@
+{
+  "name": "hook-pantry",
+  "version": "1.0.0",
+  "description": "Contains general custoom hooks, which will be useful to increase development speed.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "npm i",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raghav888/hook-pantry.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "custom",
+    "hook"
+  ],
+  "author": "Raghav Bang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Raghav888/hook-pantry/issues"
+  },
+  "homepage": "https://github.com/Raghav888/hook-pantry#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "copyfiles": "^2.4.1"
+  },
+  "files": [
+    "dist"
+ ]
+}
